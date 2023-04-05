@@ -25,7 +25,12 @@ _______________________
 
 _______________________
 ### results
-This folder contains log file and plots.
+Log file of each run will be stored in this folder.
+The task.py will check if this folder already exist and if not will create one. 
+
+------------------------------
+### plots
+This folder contains plots of various results
 
 ------------------------------
 ### tests

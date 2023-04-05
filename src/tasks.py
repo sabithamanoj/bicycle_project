@@ -199,7 +199,8 @@ def main(anonymized_file, reference_file):
     df_annotator_task_performance.to_excel('../results/annotators_task_performance.xlsx')
 
     plt.figure()
-    sns.scatterplot(data=df_annotator_task_performance,x='average_duration', y='percentage_correct_response')
+    graph = sns.scatterplot(data=df_annotator_task_performance,x='average_duration', y='percentage_correct_response')
+    graph.axhline(92.5)
     for i in range(df_annotator_task_performance.shape[0]):
         plt.text(x=df_annotator_task_performance.average_duration[i]+0.3, y=df_annotator_task_performance.percentage_correct_response[i]+0.1, s=index[i],
                  fontdict=dict(color='red',size=7), bbox=dict(facecolor='yellow',alpha=0.5))
