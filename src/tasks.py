@@ -196,7 +196,7 @@ def main(anonymized_file, reference_file):
 
     index = df_annotator_task_performance.index.values
     logging.info('{}'.format(df_annotator_task_performance[['percentage_correct_response', 'average_duration']]))
-    df_annotator_task_performance.to_excel('../results/annotators_task_performance.xlsx')
+    #df_annotator_task_performance.to_excel('../results/annotators_task_performance.xlsx')
 
     plt.figure()
     graph = sns.scatterplot(data=df_annotator_task_performance,x='average_duration', y='percentage_correct_response')
