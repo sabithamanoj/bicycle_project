@@ -1,11 +1,13 @@
 # Bicycle Project
 
 
-This repo consist of files which helps to collect information regarding the annotations done by a group of annotators and helps to evaluate the performance by comparing to the reference data. 
+This repository consist of files which helps to collect information regarding the annotations done by a group of annotators and helps to evaluate the performance by comparing to the reference data. 
 
 Inputs required are:
 1. Annotator responses in .json format
 2. Reference dataset (with correct response for each task) in json format
+
+Code developed and verified with PyCharm2021.3.1 on Windows11
 
 ## Folder Structure
 _____________________
