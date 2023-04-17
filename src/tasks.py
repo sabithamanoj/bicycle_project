@@ -1,5 +1,5 @@
 ################################################################################
-#       Home work task from Quality Match GmbH
+#       To extract informations from anonymized.json and reference.json
 ###############################################################################
 import json
 import pandas as pd
