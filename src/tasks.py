@@ -1,6 +1,7 @@
 ################################################################################
 #       To extract informations from anonymized.json and reference.json
 ###############################################################################
+# Import packages
 import json
 import pandas as pd
 import logging
